@@ -1,0 +1,6 @@
+endpoint: https://us1.prisma.sh/nare6004-c2c3d3/reservationQL/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ./generated/prisma-client/
