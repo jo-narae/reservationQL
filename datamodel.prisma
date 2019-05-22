@@ -1,4 +1,11 @@
 type User {
   id: ID! @id
   name: String!
+  group: String!
+}
+
+type Room {
+  id: ID! @id
+  name: String!
+  personnel: Int!
 }
